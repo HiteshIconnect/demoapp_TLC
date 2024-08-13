@@ -1,0 +1,7 @@
+export const errorModalTypes={
+    MODAL_SET_DATA:"MODAL_SET_DATA",
+    TOGGLE_MODAL:"TOGGLE_MODAL",
+    SET_ERROR:'SET_ERROR',
+    UNSET_ERROR:"UNSET_ERROR"
+    
+}

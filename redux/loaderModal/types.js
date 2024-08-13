@@ -1,0 +1,6 @@
+export const loaderModalTypea={
+    TOGGLE_LOADER_MODAL:"TOGGLE_LOADER_MODAL",
+    SET_LOADER:'SET_LOADER',
+    UNSET_LOADER:"UNSET_LOADER"
+    
+}

@@ -1,0 +1,4 @@
+export const workOrderTypes={
+   STORE_WORK_ORDER:'STORE_WORK_ORDER',
+   UPDATE_SALES_ORDER: 'UPDATE_SALES_ORDER'
+}
