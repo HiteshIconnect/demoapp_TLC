@@ -66,6 +66,7 @@ export const loginUser = (creds,rememberMe) => {
     let res;
     try {
       dispatch(setLoader())
+      console.log('creds---------',creds)
       res = await api.postData(creds, "login");
       if (res.status !== 200) {
         return dispatch(loginFail());
