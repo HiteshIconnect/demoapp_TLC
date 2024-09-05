@@ -1,4 +1,31 @@
 {
-  "name": "demoapp",
-  "displayName": "demoapp"
+  "name": "TLC",
+  "slug": "inventory-manager",
+  "version": "1.32.0",
+  "orientation": "portrait",
+  "icon": "./assets/appstore.png",
+  "splash": {
+    "image": "./assets/splash-2.png",
+    "resizeMode": "cover",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "versionCode": 32,
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/appstore.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "softwareKeyboardLayoutMode": "pan",
+    "package": "com.TLC.TLCMobileApp"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
 }

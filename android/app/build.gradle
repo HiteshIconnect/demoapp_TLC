@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.demoapp"
+    namespace "com.TLC.TLCMobileApp"
     defaultConfig {
-        applicationId "com.demoapp"
+        applicationId "com.TLC.TLCMobileApp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
