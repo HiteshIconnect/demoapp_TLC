@@ -12,7 +12,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import {withNavigation} from 'react-navigation';
-
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import BackGroundWrapper from '../HOC/addBackgroundHOC';
 import Header from '../components/Header';
 import isAuthHOC from '../HOC/isAuthHOC';
@@ -462,7 +462,7 @@ const InstallationStatus = ({
   const paginate = pageNumber => changeCustomPage(pageNumber);
 
   return (
-    <>
+    <KeyboardAwareScrollView>
       <ErrorModal />
       <CaptureImageModal
         navigation={navigation}
@@ -597,7 +597,12 @@ const InstallationStatus = ({
         </View>
 
         <FlatList
-          style={{width: '100%', flex: 1, marginTop: '5%'}}
+          style={{
+            width: '100%',
+            flex: 1,
+            marginTop: '5%',
+            height: screen === 'Capture Images' ? 410 : 298.5,
+          }}
           data={tempList ? tempList : currentPosts}
           keyExtractor={item => item.id.toString()}
           renderItem={({item}) => {
@@ -651,7 +656,7 @@ const InstallationStatus = ({
           </View>
         </View>
       </View>
-    </>
+    </KeyboardAwareScrollView>
   );
 };
 

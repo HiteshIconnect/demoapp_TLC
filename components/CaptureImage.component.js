@@ -154,7 +154,7 @@ function CaptureImage({
           <TextInput
             style={{
               marginRight: item.images ? '15%' : '28%',
-              borderColor: 'grey',
+              borderColor: '#A0A0A0',
               borderWidth: 1,
               height: 28,
               width: 100,
