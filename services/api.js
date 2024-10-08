@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const AWS_IP = 'http://15.184.55.180:3000/';
+const AWS_IP = 'https://apitest.thelookcompany.qa';
 const DEV_SERVER_IP = 'http://192.168.122.60:5000';
 const PROD_IP = 'http://3.209.139.140:3000';
 

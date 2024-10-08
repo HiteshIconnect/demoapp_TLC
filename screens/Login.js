@@ -56,7 +56,7 @@ const Login = ({
   const opacityVal = new Animated.Value(0);
   const endValue = 0;
   const duration = 500;
-  const baseURL = 'http://15.184.55.180:3000';
+  const baseURL = 'https://apitest.thelookcompany.qa';
   const prodURL = 'http://3.209.139.140:3000';
 
   const inputUserRef = useRef();

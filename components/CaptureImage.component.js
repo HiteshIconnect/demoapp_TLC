@@ -154,8 +154,12 @@ function CaptureImage({
           <TextInput
             style={{
               marginRight: item.images ? '15%' : '28%',
-              borderColor: 'black',
+              borderColor: 'grey',
               borderWidth: 1,
+              height: 28,
+              width: 100,
+              paddingVertical: 5,
+              borderRadius: 5,
             }}
             onChangeText={text => onchangeHandler(text)}
             value={number}
@@ -275,6 +279,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-end',
     marginEnd: 80,
+    marginLeft: 24,
     marginBottom: 4,
     paddingBottom: 4,
   },
