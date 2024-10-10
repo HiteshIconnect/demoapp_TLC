@@ -95,6 +95,7 @@ const InstallationStatus = ({
           area: item['AreaCode'],
           imagePath: item['ImagePath'],
           WOQuantity: item['Quantity'],
+          Status: item['Status'],
         });
       });
     } else {

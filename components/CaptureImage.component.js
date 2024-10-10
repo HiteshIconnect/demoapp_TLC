@@ -49,7 +49,15 @@ function CaptureImage({
   //     setText(text);
   //   }
   // };
-  const [number, onChangeNumber] = React.useState(item.WOQuantity);
+  //console.log('--------item----quantity------------', item);
+
+  const temp = item.Status.filter(el => {
+    return el.Status === 'PRINT - INSTALLED';
+  });
+
+  //console.log('--------temp----element------------', temp);
+
+  const [number, onChangeNumber] = React.useState(temp[0].value);
   const [numData] = React.useState(item.WOQuantity);
 
   const changeToCamera = item => {
