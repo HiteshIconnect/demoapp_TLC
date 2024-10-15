@@ -469,7 +469,7 @@ const InstallationStatus = ({
   const paginate = pageNumber => changeCustomPage(pageNumber);
 
   return (
-    <KeyboardAwareScrollView>
+    <>
       <ErrorModal />
       <CaptureImageModal
         navigation={navigation}
@@ -663,7 +663,7 @@ const InstallationStatus = ({
           </View>
         </View>
       </View>
-    </KeyboardAwareScrollView>
+    </>
   );
 };
 

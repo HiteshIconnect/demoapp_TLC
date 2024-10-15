@@ -202,7 +202,7 @@ export const purchaseOrdListStyles = StyleSheet.create({
     alignItems: 'center',
     elevation: 5,
     backgroundColor: '#fff',
-    marginBottom: 25,
+    marginBottom: 5,
   },
   paginatorAlign: {
     width: '90%',

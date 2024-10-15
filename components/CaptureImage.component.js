@@ -286,7 +286,7 @@ const styles = StyleSheet.create({
   thumbnail: {
     flexDirection: 'row',
     justifyContent: 'flex-end',
-    marginEnd: 80,
+    marginEnd: 50,
     marginLeft: 24,
     marginBottom: 4,
     paddingBottom: 4,
