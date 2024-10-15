@@ -79,8 +79,8 @@ android {
         applicationId "com.TLC.TLCMobileApp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 38
-        versionName "1.38.0"
+        versionCode 40
+        versionName "1.40.0"
         missingDimensionStrategy 'react-native-camera', 'general'
     }
     signingConfigs {

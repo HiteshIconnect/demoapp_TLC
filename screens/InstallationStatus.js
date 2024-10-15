@@ -442,6 +442,7 @@ const InstallationStatus = ({
         workOrderArray.push({
           Workorder_number: item.workNo,
           dropboxURL: item.encryptedLink,
+          WOQuantity: item.WOQuantity,
         });
       });
     }
@@ -452,7 +453,12 @@ const InstallationStatus = ({
       WO: workOrderArray,
       action_type: 'capture_photo',
     };
-    console.log('update wo with camera', data);
+    console.log(
+      'update wo with camera',
+      data,
+      'workOrderArray--------',
+      workOrderArray,
+    );
     await updateWODetails(data, token);
     navigation.navigate('DashBoard');
   };
