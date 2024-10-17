@@ -1,7 +1,7 @@
 {
   "name": "TLC",
   "slug": "inventory-manager",
-  "version": "1.41.0",
+  "version": "1.42.0",
   "orientation": "portrait",
   "icon": "./assets/appstore.png",
   "splash": {
@@ -17,7 +17,7 @@
     "supportsTablet": true
   },
   "android": {
-    "versionCode": 41,
+    "versionCode": 42,
     "adaptiveIcon": {
       "foregroundImage": "./assets/appstore.png",
       "backgroundColor": "#FFFFFF"

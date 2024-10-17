@@ -232,7 +232,7 @@ const Login = ({
                 styles.companyText,
                 styles.poppinsMedium,
               ]}>
-              iConnect Info Solutions v1.41.0
+              iConnect Info Solutions v1.42.0
             </Text>
             <Text
               style={{
