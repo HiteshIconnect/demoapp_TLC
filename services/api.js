@@ -3,13 +3,14 @@ import axios from 'axios';
 //const AWS_IP = "http://15.184.55.180:3000/";
 const AWS_IP = 'https://apitest.thelookcompany.qa';
 const DEV_SERVER_IP = 'http://192.168.122.60:5000';
-const PROD_IP = 'http://3.209.139.140:3000';
+//const PROD_IP = 'http://3.209.139.140:3000';
+const PROD_IP = 'https://apiprod.thelookcompany.qa';
 
 //DEV testing RULES
 //change URL to your computers IPv4 address
 //make sure that the server and mobile are in same network
 const instance = axios.create({
-  baseURL: AWS_IP,
+  baseURL: PROD_IP,
   headers: {
     'content-type': 'application/json',
   },

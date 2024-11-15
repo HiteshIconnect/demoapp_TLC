@@ -57,7 +57,7 @@ const Login = ({
   const endValue = 0;
   const duration = 500;
   const baseURL = 'https://apitest.thelookcompany.qa';
-  const prodURL = 'http://3.209.139.140:3000';
+  const prodURL = 'https://apiprod.thelookcompany.qa';
 
   const inputUserRef = useRef();
 
@@ -96,7 +96,7 @@ const Login = ({
      * set flag
      */
     //setEnv("sandbox");
-    setEnv('sandbox');
+    setEnv('prod');
 
     return () => {
       inputUserRef.current = null;
@@ -232,7 +232,7 @@ const Login = ({
                 styles.companyText,
                 styles.poppinsMedium,
               ]}>
-              iConnect Info Solutions v1.43.0
+              iConnect Info Solutions v1.44.0
             </Text>
             <Text
               style={{
@@ -241,7 +241,7 @@ const Login = ({
                 textAlign: 'center',
                 color: '#BEBEBE',
               }}>
-              BaseURL: "{baseURL}"(sandbox)
+              BaseURL: "{prodURL}"(production)
             </Text>
           </Animated.View>
         </View>
